@@ -40,9 +40,9 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
       - name: Build with Hugo
-        # 自动使用 GitHub Pages 的 URL 作为 baseURL
+        # 使用配置文件中的 baseURL
         run: |
-          hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+          hugo --gc --minify
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
