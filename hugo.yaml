@@ -3,6 +3,9 @@ languageCode: "en-us"
 title: "Hugo Profile"
 theme: hugo-profile
 
+# 确保所有 URL 都使用 baseURL
+canonifyURLs: true
+
 outputs:
   home:
     - "HTML"
