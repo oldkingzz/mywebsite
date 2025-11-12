@@ -132,8 +132,7 @@ params:
       disableProjects: false
       disableAchievements: false
       disableContact: false
-      disableGallery: True
-      disableBlogs: True
+
 
   # ==================== HERO SECTION ====================
   # This is the first section visitors see
@@ -276,14 +275,14 @@ params:
     items:
       - title: IEEE MEAE 2024 Publication
         content: "First author of 'MDATS—A Multi-Domain Adaptive Classification Strategy for Mechanical Fault Detection'"
-        url: "https://ieeexplore.ieee.org/document/11026598"  
-        image: /images/achievements/ieee-paper.jpg
+        url: "https://ieeexplore.ieee.org/document/11026598"
+        # image: /images/achievements/ieee-paper.jpg  # 添加图片后取消注释
       - title: Robocon Team Founder
         content: Co-founded university robotics competition team and led 20+ interdisciplinary members to develop autonomous systems
-        image: /images/achievements/robocon.jpg
+        # image: /images/achievements/robocon.jpg  # 添加图片后取消注释
       - title: Mechanical Innovation Competition
         content: Won award in Intelligent Manufacturing Track for industrial automation project
-        image: /images/achievements/competition.jpg
+        # image: /images/achievements/competition.jpg  # 添加图片后取消注释
 
   # ==================== PROJECTS SECTION ====================
   # Major projects showcasing technical skills
@@ -292,8 +291,7 @@ params:
     title: "Projects"
     items:
       - title: Robocon Autonomous Robot System
-        content: Founded and led the development of a complete autonomous robot system from scratch as Control Leader of the Robocon team.
-        image: static/images/projects/mywebsite/static/images/projects/robocon.png  # 添加项目图片到
+        image: /images/projects/robocon.png
         featured:
           name: "Team Leader"
           link: "#"
@@ -303,11 +301,13 @@ params:
           - "Computer Vision"
           - "STM32"
           - "C++"
-          - "employment"
+          - "Python"
         links:
           - icon: fab fa-github
-            url: https://github.com/oldkingzz/ECUST-robocon # 如果有项目仓库，替换这里
+            url: https://github.com/oldkingzz/ECUST-robocon
         content: |
+          Founded and led the development of a complete autonomous robot system from scratch as Control Leader of the Robocon team.
+
           **Role:** Founder & Control Leader (Sep 2022 - Present)
 
           - Architected autonomous system with Point-LIO SLAM (< 0.003m drift/3min)
@@ -316,21 +316,23 @@ params:
           - Led 20 interdisciplinary members and trained 60+ new members
 
       - title: Multi-Domain Adaptive Fault Detection (IEEE Publication)
-        content: Developed a novel deep learning strategy for mechanical fault detection across different operating conditions.
-        image: /images/projects/fault-detection.jpg
+        # image: /images/projects/fault-detection.jpg  # 添加图片后取消注释
         badges:
           - "Deep Learning"
           - "Python"
+          - "PyTorch"
           - "Signal Processing"
-          - "Research"
         links:
           - icon: fas fa-file-pdf
-            url: "https://ieeexplore.ieee.org/document/11026598"  # 添加论文链接
+            url: "https://ieeexplore.ieee.org/document/11026598"
         content: |
+          Developed a novel deep learning strategy for mechanical fault detection across different operating conditions.
+
           **Publication:** IEEE MEAE 2024 (First Author)
-          - Architected an end-to-end deep learning pipeline in PyTorch with CNN/TCN and transformer to diagnose mechanical faults from time-series sensor data.
-          - Solved the critical "domain shift" problem (varying operating conditions) by implementing a Transferable Domain Adaptation Network (TDAN) and TS2Vec for accelerating training.
-          -	Quantified model performance, achieving 88.27% accuracy on the unseen target domain—a +40.6% absolute improvement over the baseline.
+
+          - Architected an end-to-end deep learning pipeline in PyTorch with CNN/TCN and transformer to diagnose mechanical faults from time-series sensor data
+          - Solved the critical "domain shift" problem (varying operating conditions) by implementing a Transferable Domain Adaptation Network (TDAN) and TS2Vec for accelerating training
+          - Quantified model performance, achieving 88.27% accuracy on the unseen target domain—a +40.6% absolute improvement over the baseline
 
   # ==================== CONTACT SECTION ====================
   contact:
