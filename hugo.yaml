@@ -1,6 +1,6 @@
 baseURL: "https://oldkingzz.github.io/mywebsite/"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Vincent Wang's Personal Website"
 theme: hugo-profile
 
 # 确保所有 URL 都使用 baseURL
@@ -141,7 +141,7 @@ params:
     title: "Vincent Wang"
     subtitle: "Robotics Engineer & Control Systems Specialist"
     content: "M.S. student in MEAN at UPenn, specializing in Mechatronics and Robotics. Passionate about autonomous systems, ROS development, and embedded control. Experienced in building high-performance robotic systems from scratch."
-    image: /images/hero.svg
+    image: /images/hero.png
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
