@@ -142,7 +142,7 @@ params:
     title: "Vincent Wang"
     subtitle: "Robotics Engineer & Control Systems Specialist"
     content: "M.S. student in MEAN at UPenn, specializing in Mechatronics and Robotics. Passionate about autonomous systems, ROS development, and embedded control. Experienced in building high-performance robotic systems from scratch."
-    image: /images/hero.svg
+    image: /images/gemini.png
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
