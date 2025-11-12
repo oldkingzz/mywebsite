@@ -316,7 +316,7 @@ params:
           - Led 20 interdisciplinary members and trained 60+ new members
 
       - title: Multi-Domain Adaptive Fault Detection (IEEE Publication)
-        # image: /images/projects/fault-detection.jpg  # 添加图片后取消注释
+        image: /images/projects/MEAE.png  # 添加图片后取消注释
         badges:
           - "Deep Learning"
           - "Python"
