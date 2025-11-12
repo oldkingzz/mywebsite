@@ -326,9 +326,8 @@ params:
             url: "https://ieeexplore.ieee.org/document/11026598"  # 添加论文链接
         content: |
           **Publication:** IEEE MEAE 2024 (First Author)
-
           - Architected an end-to-end deep learning pipeline in PyTorch with CNN/TCN and transformer to diagnose mechanical faults from time-series sensor data.
-	        - Solved the critical "domain shift" problem (varying operating conditions) by implementing a Transferable Domain Adaptation Network (TDAN) and TS2Vec for accelerating training.
+          - Solved the critical "domain shift" problem (varying operating conditions) by implementing a Transferable Domain Adaptation Network (TDAN) and TS2Vec for accelerating training.
           -	Quantified model performance, achieving 88.27% accuracy on the unseen target domain—a +40.6% absolute improvement over the baseline.
 
   # ==================== CONTACT SECTION ====================
