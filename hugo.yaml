@@ -132,6 +132,8 @@ params:
       disableProjects: false
       disableAchievements: false
       disableContact: false
+      disableGallery: True
+      disableBlogs: True
 
   # ==================== HERO SECTION ====================
   # This is the first section visitors see
