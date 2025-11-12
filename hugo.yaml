@@ -291,7 +291,7 @@ params:
     items:
       - title: Robocon Autonomous Robot System
         content: Founded and led the development of a complete autonomous robot system from scratch as Control Leader of the Robocon team.
-        image: /images/projects/robocon.png  # 添加项目图片到 static/images/projects/
+        image: static/images/projects/mywebsite/static/images/projects/robocon.png  # 添加项目图片到
         featured:
           name: "Team Leader"
           link: "#"
@@ -301,10 +301,10 @@ params:
           - "Computer Vision"
           - "STM32"
           - "C++"
-          - "Python"
+          - "employment"
         links:
           - icon: fab fa-github
-            url: https://github.com/oldkingzz  # 如果有项目仓库，替换这里
+            url: https://github.com/oldkingzz/ECUST-robocon # 如果有项目仓库，替换这里
         content: |
           **Role:** Founder & Control Leader (Sep 2022 - Present)
 
@@ -323,35 +323,19 @@ params:
           - "Research"
         links:
           - icon: fas fa-file-pdf
-            url: "#"  # 添加论文链接
+            url: "https://ieeexplore.ieee.org/document/11026598"  # 添加论文链接
         content: |
           **Publication:** IEEE MEAE 2024 (First Author)
 
-          - Developed novel classification strategy for time-series sensor data
-          - Improved fault detection accuracy across varying operating conditions
-          - Validated on complex mechanical systems datasets
-
-      - title: Industrial Automation Control System
-        content: Designed and implemented industrial networking and PLC control for automated manufacturing processes.
-        image: /images/projects/plc-control.jpg
-        badges:
-          - "PLC"
-          - "Siemens"
-          - "Industrial IoT"
-          - "Automation"
-        content: |
-          **Competition:** Mechanical Innovation Competition (Mar 2024)
-
-          - Implemented industrial networking protocols
-          - Programmed Siemens PLC for motor control automation
-          - Built simulation environment using Tecnomatic
-          - Designed automatic control processes for manufacturing line
+          - Architected an end-to-end deep learning pipeline in PyTorch with CNN/TCN and transformer to diagnose mechanical faults from time-series sensor data.
+	        - Solved the critical "domain shift" problem (varying operating conditions) by implementing a Transferable Domain Adaptation Network (TDAN) and TS2Vec for accelerating training.
+          -	Quantified model performance, achieving 88.27% accuracy on the unseen target domain—a +40.6% absolute improvement over the baseline.
 
   # ==================== CONTACT SECTION ====================
   contact:
     enable: true
     title: "Get In Touch"
-    content: I'm currently seeking full-time opportunities in robotics and control systems. Whether you have a question about my projects or want to discuss potential collaborations, feel free to reach out!
+    content: I'm currently seeking internship opportunities in robotics and control systems. Whether you have a question about my projects or want to discuss potential collaborations, feel free to reach out!
     btnName: Email Me
     btnLink: mailto:Wang2003@seas.upenn.edu
     # formspree:
