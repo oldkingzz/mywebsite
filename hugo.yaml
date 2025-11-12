@@ -140,7 +140,7 @@ params:
     intro: "Hi, my name is"
     title: "Vincent Wang"
     subtitle: "Robotics Engineer & Control Systems Specialist"
-    content: "M.S. student in Mechanical Engineering at UPenn, specializing in Mechatronics and Robotics. Passionate about autonomous systems, ROS development, and embedded control. Experienced in building high-performance robotic systems from scratch."
+    content: "M.S. student in MEAN at UPenn, specializing in Mechatronics and Robotics. Passionate about autonomous systems, ROS development, and embedded control. Experienced in building high-performance robotic systems from scratch."
     image: /images/hero.svg
     bottomImage:
       enable: true
@@ -148,7 +148,7 @@ params:
     button:
       enable: true
       name: "Download Resume"
-      url: "/resume.pdf"  # 将你的简历 PDF 放在 static/resume.pdf
+      url: "/VincentWangCV.docx"  # 将你的简历 PDF 放在 static/resume.pdf
       download: true
       newPage: false
     socialLinks:
@@ -191,8 +191,8 @@ params:
     enable: true
     title: "Work Experience"
     items:
-      - company: "Shanghai Uji Technology Co., Ltd."
-        companyUrl: "https://www.ujibot.com"  # 如果有公司网站，替换这里
+      - company: "Shanghai Uji Technology ."
+        #companyUrl: "https://www.ujibot.com"  # 如果有公司网站，替换这里
         jobs:
           - name: "Robotics Control Intern"
             date: "Jul 2024 - Sep 2024"
@@ -238,7 +238,7 @@ params:
       - title: "M.S. in Mechanical Engineering and Applied Mechanics"
         school:
           name: "University of Pennsylvania"
-          url: "https://www.upenn.edu"
+          url: "https://www.seas.upenn.edu/"
         date: "Sep 2025 - Present"
         GPA: "In Progress"
         content: |-
@@ -247,6 +247,7 @@ params:
           **Relevant Courses:**
           - Advanced Dynamics
           - Design of Mechatronics Systems
+          - Foundations of Engineering Mathematics
 
       - title: "Bachelor of Intelligent Manufacturing Engineering"
         school:
@@ -256,14 +257,14 @@ params:
         GPA: "Ranking: TOP 15%"
         content: |-
           **Achievements:**
+          - Co-founder and control leader of ECUST Robocon Team
           - Published first-author paper in IEEE MEAE 2024
-          - Founded and led university Robocon team with 20+ members
-          - Won awards in Mechanical Innovation Competition
+
 
           **Key Projects:**
-          - Autonomous robot system with SLAM and computer vision
+          - Autonomous robot system with SLAM and computer vision on nuc system
           - STM32-based embedded control system
-          - Industrial automation with PLC programming
+          - Developed an AI-driven Mechanical Damage Detection Model
 
   # ==================== ACHIEVEMENTS SECTION ====================
   # Publications, awards, and notable accomplishments
