@@ -274,7 +274,7 @@ params:
     items:
       - title: IEEE MEAE 2024 Publication
         content: "First author of 'MDATS—A Multi-Domain Adaptive Classification Strategy for Mechanical Fault Detection'"
-        url: "#"  # 添加论文 DOI 或链接
+        url: "https://ieeexplore.ieee.org/document/11026598"  
         image: /images/achievements/ieee-paper.jpg
       - title: Robocon Team Founder
         content: Co-founded university robotics competition team and led 20+ interdisciplinary members to develop autonomous systems
@@ -291,7 +291,7 @@ params:
     items:
       - title: Robocon Autonomous Robot System
         content: Founded and led the development of a complete autonomous robot system from scratch as Control Leader of the Robocon team.
-        image: /images/projects/robocon.jpg  # 添加项目图片到 static/images/projects/
+        image: /images/projects/robocon.png  # 添加项目图片到 static/images/projects/
         featured:
           name: "Team Leader"
           link: "#"
